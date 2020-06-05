@@ -1,87 +1,82 @@
 #page-create-point {
     width: 100%;
     max-width: 1100px;
-  
     margin: 0 auto;
-  }
-  
-  #page-create-point header {
+}
+
+#page-create-point header {
     margin-top: 48px;
-  
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  #page-create-point header a {
+}
+
+#page-create-point header a {
     color: var(--title-color);
     font-weight: bold;
     text-decoration: none;
-  
     display: flex;
     align-items: center;
-  }
-  
-  #page-create-point header a svg {
+}
+
+#page-create-point header a svg {
     margin-right: 16px;
     color: var(--primary-color);
-  }
-  
-  #page-create-point form {
+}
+
+#page-create-point form {
     margin: 80px auto;
     padding: 64px;
     max-width: 730px;
     background: #FFF;
     border-radius: 8px;
-  
     display: flex;
     flex-direction: column;
-  }
-  
-  #page-create-point form h1 {
+}
+
+#page-create-point form h1 {
     font-size: 36px;
-  }
-  
-  #page-create-point form fieldset {
+}
+
+#page-create-point form fieldset {
     margin-top: 64px;
     min-inline-size: auto;
     border: 0;
-  }
-  
-  #page-create-point form legend {
+}
+
+#page-create-point form legend {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-  }
-  
-  #page-create-point form legend h2 {
+}
+
+#page-create-point form legend h2 {
     font-size: 24px;
-  }
-  
-  #page-create-point form legend span {
+}
+
+#page-create-point form legend span {
     font-size: 14px;
     font-weight: normal;
     color: var(--text-color);
-  }
-  
-  #page-create-point form .field-group {
+}
+
+#page-create-point form .field-group {
     flex: 1;
     display: flex;
-  }
-  
-  #page-create-point form .field {
+}
+
+#page-create-point form .field {
     flex: 1;
-  
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
-  }
-  
-  #page-create-point form .field input[type=text],
-  #page-create-point form .field input[type=email],
-  #page-create-point form .field input[type=number] {
+}
+
+#page-create-point form .field input[type=text],
+#page-create-point form .field input[type=email],
+#page-create-point form .field input[type=number] {
     flex: 1;
     background: #F0F0F5;
     border-radius: 8px;
@@ -89,9 +84,9 @@
     padding: 16px 24px;
     font-size: 16px;
     color: #6C6C80;
-  }
-  
-  #page-create-point form .field select {
+}
+
+#page-create-point form .field select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -102,50 +97,50 @@
     padding: 16px 24px;
     font-size: 16px;
     color: #6C6C80;
-  }
-  
-  #page-create-point form .field input::placeholder {
+}
+
+#page-create-point form .field input::placeholder {
     color: #A0A0B2;
-  }
-  
-  #page-create-point form .field label {
+}
+
+#page-create-point form .field label {
     font-size: 14px;
     margin-bottom: 8px;
-  }
-  
-  #page-create-point form .field :disabled {
+}
+
+#page-create-point form .field :disabled {
     cursor: not-allowed;
-  }
-  
-  #page-create-point form .field-group .field + .field {
+}
+
+#page-create-point form .field-group .field+.field {
     margin-left: 24px;
-  }
-  
-  #page-create-point form .field-group input + input {
+}
+
+#page-create-point form .field-group input+input {
     margin-left: 24px;
-  }
-  
-  #page-create-point form .field-check {
+}
+
+#page-create-point form .field-check {
     flex-direction: row;
     align-items: center;
-  }
-  
-  #page-create-point form .field-check input[type=checkbox] {
+}
+
+#page-create-point form .field-check input[type=checkbox] {
     background: #F0F0F5;
-  }
-  
-  #page-create-point form .field-check label {
+}
+
+#page-create-point form .field-check label {
     margin: 0 0 0 8px;
-  }
-  
-  #page-create-point form .leaflet-container {
+}
+
+#page-create-point form .leaflet-container {
     width: 100%;
     height: 350px;
     border-radius: 8px;
     margin-bottom: 24px;
-  }
-  
-  #page-create-point form button {
+}
+
+#page-create-point form button {
     width: 260px;
     height: 56px;
     background: var(--primary-color);
@@ -158,46 +153,42 @@
     margin-top: 40px;
     transition: background-color 0.2s;
     cursor: pointer;
-  }
-  
-  #page-create-point form button:hover {
+}
+
+#page-create-point form button:hover {
     background: #2FB86E;
-  }
-  
-  .items-grid {
+}
+
+.items-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     list-style: none;
-  }
-  
-  .items-grid li {
+}
+
+.items-grid li {
     background: #f5f5f5;
     border: 2px solid #f5f5f5;
     height: 180px;
     border-radius: 8px;
     padding: 32px 24px 16px;
-  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  
     text-align: center;
-  
     cursor: pointer;
-  }
-  
-  .items-grid li span {
+}
+
+.items-grid li span {
     flex: 1;
     margin-top: 12px;
-  
     display: flex;
     align-items: center;
     color: var(--title-color)
-  }
-  
-  .items-grid li.selected {
+}
+
+.items-grid li.selected {
     background: #E1FAEC;
     border: 2px solid #34CB79;
-  }
+}

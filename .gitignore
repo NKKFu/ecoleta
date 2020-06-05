@@ -1,3 +1,6 @@
+# Custom
+/server/uploads/*.jpg
+
 # Logs
 logs
 *.log
